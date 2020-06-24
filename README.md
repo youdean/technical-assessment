@@ -1,29 +1,15 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Demo Program for Technical Assessment
 
-### What is this repository for? ###
+### Prerequisites
+docker and docker-compose
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+## How to run?
+ - docker-compose up
+ 
+## How to use?
+1. Go to: http://localhost/swagger-ui.html
+2. Create your own user at the endpoint /users or use the default user with credentials: user@domain.com / Password123!
+3. Get token under /auth/token
+4. Click Authorize button and type: "Bearer {your token}" without quotes
