@@ -1,14 +1,14 @@
 # README #
 
-Demo Program for Technical Assessment
+Demo Program Untuk Technical Assessment
 
-### Prerequisites
+### Requirement
 docker and docker-compose
 
-## How to run?
+## Cara menjalankan
  - docker-compose up
  
-## How to use?
+## Penggunaan
 1. Buka browser: http://localhost/swagger-ui.html
 2. Buat user baru di endpoint /users atau gunakan user default: user@domain.com / Password123!
 3. Generate token di /auth/token
