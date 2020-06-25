@@ -9,7 +9,8 @@ docker and docker-compose
  - docker-compose up
  
 ## How to use?
-1. Go to: http://localhost/swagger-ui.html
-2. Create your own user at the endpoint /users or use the default user with credentials: user@domain.com / Password123!
-3. Get token under /auth/token
-4. Click Authorize button and type: "Bearer {your token}" without quotes
+1. Buka browser: http://localhost/swagger-ui.html
+2. Buat user baru di endpoint /users atau gunakan user default: user@domain.com / Password123!
+3. Generate token di /auth/token
+4. Klik tombol Authorize masukkan token hasil generate: "Bearer {token}" tanpa tanda petik
+5. token digunakan untuk mengakses API lain
