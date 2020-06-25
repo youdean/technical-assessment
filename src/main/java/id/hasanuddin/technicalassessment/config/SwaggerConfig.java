@@ -42,7 +42,7 @@ public class SwaggerConfig {
 				.apiInfo(new ApiInfoBuilder()
 						.title("Technical Assessment")
 						.description("Demo Program")
-						.contact(new Contact("Hasanuddin", "https://bitbucket.org/hasanuddin/", "maulana24hasanuddin@gmail.com"))
+						.contact(new Contact("Hasanuddin", "https://github.com/youdean", "maulana24hasanuddin@gmail.com"))
 						.build())
 				.securitySchemes(of(apiKey()))
 				.securityContexts(of(securityContext()));
