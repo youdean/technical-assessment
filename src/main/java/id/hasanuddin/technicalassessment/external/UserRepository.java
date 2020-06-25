@@ -21,7 +21,7 @@ public class UserRepository implements UserDetailsService {
 	private final UserConverter converter;
 
 	@Override
-	public UserDetails loadUserByUsername(String email) {
+	public User loadUserByUsername(String email) {
 		return users.findByEmail(email)
 				.map(converter::fromEntity)
 				.orElseThrow(() -> new UserNotFoundException("User with email: " + email + " not found"));
